@@ -1,0 +1,556 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    background-image: url(3560538.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 738px;
+    width: 100%;
+    border-bottom: 2px solid #ff0059;
+
+}
+.logo-container img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+nav {
+    position: fixed;
+    top: 0;
+    right: 2%;
+    z-index: 1;
+    border: 2px solid transparent;
+    height: 50px;
+    width: 451px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    backdrop-filter: blur(15px) ;
+
+
+}
+nav a{
+    text-decoration: none;
+    background:linear-gradient(to right, rgb(205, 5, 5),rgba(250, 0, 250, 0.925),rgb(208, 25, 208),rgb(223, 19, 141),rgb(243, 30, 30),rgb(188, 9, 9));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     transition: .3s all ease-in-out;
+}
+nav a:hover,
+nav a:focus{
+    text-decoration: 2px solid rgb(205, 5, 212) underline;
+}
+nav a:first-child{
+    text-decoration: 2px solid rgb(205, 5, 212) underline;
+
+}
+.detail-container{
+    border: 2px solid transparent;
+    height: 350px;
+    width: 510px ;
+    margin-top: 10%;
+    align-items: center;
+    text-align: center;
+    margin-left: 8%;
+    backdrop-filter: blur(5px);
+    border-radius: 12px;
+}
+h1{
+    margin: 60px 0px 50px 0px ;
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(to right,rgb(31, 109, 236),red,rgb(252, 6, 252),rgb(55, 204, 230));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hire button{
+    padding: 15px;
+    all: unset;
+    margin-top: 6px;
+    height: 44px;
+    width: 180px; 
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    background: linear-gradient(to right,red,rgb(252, 6, 252),rgb(202, 30, 59),rgb(238, 67, 5),rgb(55, 204, 230));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    border: 2px solid grey;
+    transition: .3s all ease-in-out;
+}
+.hire button:hover,
+.hire button:focus{
+    width: 186px;
+    height: 46px;
+    border: 2px solid rgb(205, 12, 212);
+}
+.hire button ion-icon{
+    position: relative;
+    top: 3px;
+    left: 6px;
+    color:grey;
+    
+}
+.detail-container img{
+    height: 385px;
+    border-radius: 100%;
+    border: 2px solid grey;
+    position: absolute;
+    top: -27px;
+    left: 940px;
+    width: 370px;
+}
+.wallpaper-2{
+    background-image: url(wallpaperflare.com_wallpaper\ \(5\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 738px;
+    width: 100%;
+    border-bottom: 2px solid #ff0059;
+
+}
+.wallpaper-2 img{
+    height: 400px;
+    position: relative;
+    top: 130px;
+    left: 100px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+}
+H2{
+    position: absolute;
+    left: 617px;
+    top: 760px;
+    font-size: 38px;
+    font-weight: 600;
+    color: grey;
+    cursor: pointer;
+    background: linear-gradient(to right,rgb(31, 109, 236),red,rgb(252, 6, 252),rgb(55, 204, 230));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.about{
+    position: absolute;
+    left: 500px;
+    top: 841px;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(231, 215, 215);
+}
+.quote{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: -12px;
+    font-size: 16px;
+    font-weight: normal;
+     background:linear-gradient(120deg,rgb(200, 19, 115),rgb(4, 47, 116), rgb(205, 5, 5),rgb(103, 10, 103),rgb(194, 11, 194));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     transition: .3s all ease-in-out;
+     border: 2px solid transparent;
+     backdrop-filter: blur(12px);
+     border-radius: 12px;
+}
+.details {
+    border: 2px solid transparent;
+    left: 33%;
+    padding-left: 15px;
+    position: relative;
+    top: -168px;
+    height: 300px;
+    width:500px ;
+    border-radius: 12px;
+    backdrop-filter: blur(12px);
+}
+
+.details ul li{
+    font-size: 18px;
+    line-height: 37px;
+    font-weight: 600;
+    color: rgb(8, 60, 129);
+    list-style: none;
+    /* background: linear-gradient(#fff1c1, #c2e9fb);
+     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+}
+.enter-detail{
+    padding-left: 3px;
+    /* background: linear-gradient(to right,red,rgb(139, 6, 121),rgb(107, 3, 59));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    color:rgb(151, 12, 79);
+    font-weight: 500;
+    
+}
+.icons{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    height: 45px;
+    width: 430px;
+    text-align: center;
+    align-items: center;
+}
+.Music{
+    border: 2px solid transparent;
+    /* backdrop-filter: blur(12px); */
+    height: 35px;
+    width: 100px;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+    /* color: white; */
+}
+.Music:hover{
+    border: 2px solid #ff0059;
+
+}
+.Music:focus{
+    border: 2px solid gray;
+}
+ion-icon{
+    position: relative;
+    top: 3px;
+    right: 2px;
+    color: grey;
+}
+.wallpaper-3{
+    background-image: url(wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 738px;
+    width: 100%;
+    border-bottom: 2px solid #ff0059;
+}
+h3{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 29px;
+      background: linear-gradient(to right,rgb(31, 109, 236),red,rgb(252, 6, 252),rgb(55, 204, 230));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon-ctn{
+    /* border: 2px solid red; */
+    height: 135px;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 0 auto;
+}
+.icon-ctn ion-icon{
+    height: 120px;
+    width: 90px;
+    border: 2px solid transparent;
+    backdrop-filter: blur(18px);
+    border-radius: 15px;
+    transition: .3s all ease-in-out;
+
+}
+.icon-ctn ion-icon:hover{
+    height: 125px;
+    width:95px ;
+}
+#html{
+    color:orangered ;
+    transition: .3s all ease-in-out;
+
+}
+#html:hover{    
+    background-color: white;
+    border: 2px solid orangered;
+    transition: .3s all ease-in-out;
+}
+#css{
+   color: rgb(50, 50, 214); 
+}
+#css:hover{    
+    background-color: white;
+    border: 2px solid rgb(50, 50, 214);
+    transition: .3s all ease-in-out;
+}
+#java{
+    color: yellow;
+}
+#java:hover{    
+    background-color: white;
+    border: 2px solid yellow;
+    transition: .3s all ease-in-out;
+}
+#react{
+    color: rgb(8, 196, 221);
+}
+#react:hover{    
+    background-color: white;
+    border: 2px solid rgb(8, 196, 221);
+    transition: .3s all ease-in-out;
+}
+#nodejs{
+    color: rgb(108, 238, 57);
+}
+#nodejs:hover{    
+    background-color: white;
+    border: 2px solid rgb(108, 238, 57);
+    transition: .3s all ease-in-out;
+}
+#python{
+    color: rgb(58, 82, 219);
+}
+#python:hover{    
+    background-color: white;
+    border: 2px solid rgb(58, 82, 219);
+    transition: .3s all ease-in-out;
+}
+#github{
+    color: black;
+}
+#github:hover{    
+    background-color: white;
+    border: 2px solid black;
+    transition: .3s all ease-in-out;
+}
+.text-ctn{
+    height: 45px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-ctn ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+   
+}
+#one{
+    padding: 7px 0px 0px 25px;
+}
+#two{
+     padding: 7px 0px 0px 35px;
+}
+#three{
+     padding: 7px 0px 0px 30px;
+}
+#four{
+     padding: 7px 0px 0px 32px;
+}
+#five{
+     padding: 7px 0px 0px 25px;
+}
+#six{
+     padding: 7px 4px 0px 25px;
+}
+#seven{
+     padding: 7px 11px 0px 15px;
+}
+.project-container{
+    /* border: 2px solid red; */
+    margin-top: 16px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-container img{
+    height: 286px;
+    width: 300px;
+    /* border: 2px solid transparent; */
+    border-radius: 15px;
+    transition: .3s all ease-in-out;
+}
+.project-container img:hover{
+    height: 300px;
+    width: 309px;
+    /* border: 2px solid rgb(8, 196, 221); */
+    
+}
+.project-container #img-one:hover{
+    border: 3px solid rgb(246, 167, 21);
+    transition: .1s all ease-in-out;
+}
+.project-container #img-two:hover{
+    border: 3px solid purple;
+    transition: .1s all ease-in-out;
+}
+.project-container #img-three:hover{
+    border: 3px solid grey;
+    transition: .1s all ease-in-out;
+}
+.project-container #img-four:hover{
+    border: 3px solid #ff0059 ;
+    transition: .1s all ease-in-out;
+}
+.wallpaper-4{
+    background: url(wp10092942-dark-4k-pc-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 738px;
+    width: 100%;
+    border: none;
+}
+.send-sms{
+    border: 2px solid grey;
+    /* box-shadow: 1px 0px 0px black; */
+    backdrop-filter: blur(15px);
+    background: transparent;
+    height: 390px;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    text-align: center;
+    border-radius: 12px;
+}
+.send-sms input{
+    all: unset;
+    border: 2px solid transparent;
+    backdrop-filter: blur(12px);
+    padding: 15px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.088);
+    border: 2px solid grey;
+    background: transparent;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+    font-size: 18px;
+}
+.send-sms input:focus,
+.send-sms input:hover{
+    border: 2px solid #aa00ff;
+    padding: 18px;
+}
+.sms textarea{
+    border-radius: 12px;
+    background: transparent;
+    backdrop-filter: blur(12px);
+    margin-top: 15px;
+    text-align:center;
+    font-size: 18px;
+    height: 170px;
+    width: 240px;
+    border: 2px solid white;
+    transition: .1s all ease-in-out;
+    padding-top: 10px;
+}
+.sms textarea:hover{
+    height: 175px;
+    width: 250px;
+    border: 2px solid #aa00ff;
+}
+.sms textarea:focus{
+    border: 2px solid #aa00ff;
+    height: 175px;
+    width: 250px;
+}
+button.send{
+    all: unset;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 9px;
+    border: 2px solid grey;
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.088);
+    backdrop-filter: blur(15px);
+    font-size: 18px;
+    color: grey;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+
+
+}
+button.send:hover,
+button.send:focus{
+    height: 40px;
+    width: 85px;
+    border: 2px solid #aa00ff;
+}
+footer{
+    border: 2px solid transparent;
+    height: 113px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    backdrop-filter: blur(15px);
+}
+h4{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.social-media ion-icon{
+    height: 25px;
+    width: 65px;
+    padding-top: 8px;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+.social-media ion-icon:hover{
+    color: black;
+    border-radius: 50px;
+    height: 30px;
+    width: 70px;
+}
+.social-media #insta:hover{
+    color: rgb(175, 4, 175);
+    border-radius: 50px;
+    height: 30px;
+    width: 70px;
+}
+.social-media #you:hover,
+.social-media #you:focus{
+    color:rgb(228, 21, 21);
+    border-radius: 50px;
+    height: 30px;
+    width: 70px;
+}
+.social-media #face:hover{
+    color:blue;
+    border-radius: 50px;
+    height: 30px;
+    width: 70px;
+}
+.copyright{
+    padding-top: 10px;
+    color: grey;
+    cursor: pointer;
+}
+.copyright:hover{
+    color: #aa00ff;
+
+}
